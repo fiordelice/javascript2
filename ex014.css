@@ -1,0 +1,32 @@
+body{
+    background-color:lightskyblue;
+    color: white;
+}
+button{
+    padding: 15px;
+    background-color:lightskyblue;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+
+}
+section{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(10, 9, 9, 0.095);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid white;
+
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+}
+footer{ text-align: center;
+    margin: 0 auto;
+}
+input{
+    border: 3px solid lightskyblue;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 20px;
+            border: 3px solid blueviolet;
+            border-radius: 9px 9px 9px 9px;
+        }
+        h1{
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exercício</h1>
+    <button onclick="Botão1()">Botão1</button>
+    <button onclick="Botão2()">Botão2</button>
+    <button onclick="Botão3()">Botão3</button>
+    <hr>
+    <button onclick="BotaoCorFundo()">Alterar cor de fundo</button>
+    <hr>
+    <button onclick="BotaoCorFundoV()">Vermelho</button>
+    <button onclick="BotaoCorFundoE()">Verde</button>
+    <button onclick="BotaoCorFundoA()">Azul</button>
+    <button onclick="BotaoCorFundoS()">Rosa</button>
+</body>
+
+    
+<script>
+   function Botão1(){
+    alert("Voce clicou no botão1")
+  }
+  function Botão2(){
+    alert("Voce clicou no botão2")
+  }
+  function Botão3(){
+    alert("Voce clicou no botão3")
+  }
+  function BotaoCorFundo(){
+   document.body.style.backgroundColor = "Teal"
+  }
+
+  function BotaoCorFundoV(){
+   document.body.style.backgroundColor = "red"
+  }
+  function BotaoCorFundoE(){
+   document.body.style.backgroundColor = "green"
+  }
+  function BotaoCorFundoA(){
+   document.body.style.backgroundColor = "blue"
+  }
+  function BotaoCorFundoS(){
+   document.body.style.backgroundColor = "pink"
+  }
+</script>
+</html>

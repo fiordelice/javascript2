@@ -1,0 +1,18 @@
+button{
+    padding:10px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(103, 104, 106, 0.514);
+    border: 3 solid  rgba(103, 104, 106, 0.514) ;
+
+}
+body{
+    background-color: paleturquoise;
+}
+header{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+}

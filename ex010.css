@@ -1,0 +1,16 @@
+body{
+    background-color: seagreen;
+}
+button{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid green;
+}
+section{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center ;
+
+    margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(70, 131, 180, 0.67);
+    color: white;
+}
+button{
+    padding: 15px;
+    background-color: rgba(70, 131, 180, 0.67);
+    border: 2px solid black;
+    color: white;
+
+}
+section{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.27);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+}
+footer{ text-align: center;
+    margin: 0 auto;
+
+}
